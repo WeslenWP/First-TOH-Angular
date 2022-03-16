@@ -31,16 +31,23 @@ nav a {
   padding: 1rem;
   text-decoration: none;
   margin-top: 10px;
+  margin-left: 3px;
   display: inline-block;
   background-color: #e8e8e8;
   color: #3d3d3d;
   border-radius: 4px;
+  transition: background-color linear 100ms;
 }
 
 nav a:hover {
   color: white;
-  background-color: #42545c;
+  background-color: hsla(198, 16%, 31%, 0.75);
 }
 nav a.active {
   background-color: black;
+}
+
+.selected {
+  color: #e4e4e4 !important;
+  background-color: #42545c !important;
 }
