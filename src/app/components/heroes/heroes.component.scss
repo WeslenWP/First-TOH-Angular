@@ -52,3 +52,42 @@
   margin-right: 0.8em;
   border-radius: 4px 0 0 4px;
 }
+.newHeroDiv {
+  // border: 2px solid #000;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.newHeroDiv input {
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.newHeroDiv label {
+  font-size: 18pt;
+}
+
+.add-button {
+  position: relative;
+  transition: background-color,transform 0.05s linear;
+  transform: translate(0, 0);
+  padding: .2rem .5em;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.add-button:hover {
+  color: white;
+  background-color: #42545c;
+  transform: translate(0, -2px);
+}
+
+.all {
+  display: flex;
+  flex-direction: column-reverse;
+  column-gap: 15px;
+}
